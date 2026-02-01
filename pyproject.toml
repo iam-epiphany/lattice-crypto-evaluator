@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lattice-based cryptographic algorithms Performance evaluator"
+version = "1.0.0"
+description = "格密码算法性能评估工具"
+authors = [{ name = "Xidian", email = "" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+crypto-evaluator = "src.main:main"
