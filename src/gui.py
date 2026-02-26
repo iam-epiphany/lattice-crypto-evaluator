@@ -196,6 +196,7 @@ class CryptoEvaluator(QWidget):
 
             self.param_labels[param] = label
             self.param_inputs[param] = input_field
+        self.result_box.clear()
 
     def on_calculate_click(self):
         # 重新获取算法和评估类型的最新选项
